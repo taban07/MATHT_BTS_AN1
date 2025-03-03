@@ -8,7 +8,9 @@ def Verfier4Caracteres(chaine):
 
 #fonction pour vérifier si une chaine contient uniquement des chiffres
 def VerifierUniquementChiffres(chaine):
-    return chaine.isdigit()
+    return chaine.lister_chiffres()
+
+lister_chiffres = ["0","1","2","3","4","5","6","7","8","9"]
 
 #fonction principale pour verifier un code PIN
 def VerifierCodePin(code_ref):
